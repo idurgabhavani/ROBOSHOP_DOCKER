@@ -1,4 +1,4 @@
-network
+networks:
   default:
     external:
       name: roboshop
@@ -17,5 +17,5 @@ services:
     - "80:80"
     depends_on: 
     - catalogue
-    
+
 
