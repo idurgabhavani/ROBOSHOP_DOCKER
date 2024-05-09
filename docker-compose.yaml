@@ -18,7 +18,7 @@ services:
     depends_on: 
     - catalogue
   redis:
-    image: redis:1
+    image: redis
   user:
     image: user:1 
     depends_on: 
