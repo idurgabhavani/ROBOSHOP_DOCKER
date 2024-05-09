@@ -12,7 +12,7 @@ services:
     depends_on: 
     - mongodb
   web:
-    images: web:1
+    image: web:1
     ports:
     - "80:80"
     depends_on: 
